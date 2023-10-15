@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="" />
+    <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/MainExtended.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Zmienne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager" selected="Application.MainExtended">
     <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstClass" />
       <module name="kodilla-course.kodilla-intro.main" />
@@ -65,8 +70,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="kodilla-course.kodilla-intro" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainExtended" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainExtended" />
+      <module name="kodilla-course.kodilla-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zmienne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zmienne" />
+      <module name="kodilla-course.kodilla-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainExtended" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Zmienne" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.FirstClass" />
       </list>
@@ -83,7 +112,9 @@
       <workItem from="1696779995855" duration="1923000" />
       <workItem from="1696782318417" duration="35000" />
       <workItem from="1696865691751" duration="3201000" />
-      <workItem from="1696870237083" duration="312000" />
+      <workItem from="1696870237083" duration="833000" />
+      <workItem from="1696928560430" duration="613000" />
+      <workItem from="1697376267536" duration="5683000" />
     </task>
     <servers />
   </component>
