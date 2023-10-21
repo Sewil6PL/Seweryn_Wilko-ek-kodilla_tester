@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/MainExtended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Zmienne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/DebugExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,33 +37,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PC/IdeaProjects/kodilla-course/src/main/java/com/kodilla/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/PC/IdeaProjects/kodilla-course/src/main/java/com/kodilla/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.MainExtended">
-    <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstClass" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DebugExample">
+    <configuration name="DebugExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DebugExample" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="kodilla-course.kodilla-intro.main" />
+    <configuration name="FirstClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstClass" />
+      <module name="kodilla-course.kodilla-intro" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainExtended" />
+        <item itemvalue="Application.DebugExample" />
+        <item itemvalue="Application.FirstClass (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainExtended" />
         <item itemvalue="Application.Zmienne" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.FirstClass" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +120,8 @@
       <workItem from="1696865691751" duration="3201000" />
       <workItem from="1696870237083" duration="833000" />
       <workItem from="1696928560430" duration="613000" />
-      <workItem from="1697376267536" duration="5683000" />
+      <workItem from="1697376267536" duration="8244000" />
+      <workItem from="1697887143814" duration="2666000" />
     </task>
     <servers />
   </component>
@@ -129,7 +136,15 @@
           <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-intro/src/main/java/DebugExample.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kodilla_course$FirstClass__1_.ic" NAME="FirstClass (1) Coverage Results" MODIFIED="1697888515668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
