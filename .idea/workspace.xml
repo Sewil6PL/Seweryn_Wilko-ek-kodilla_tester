@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/FirstClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/LeapYear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Loops.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +68,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.FirstClass">
-    <configuration name="DebugExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DebugExample" />
-      <module name="kodilla-course.kodilla-intro.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstClass" />
       <module name="kodilla-course.kodilla-intro.main" />
@@ -81,6 +77,13 @@
     </configuration>
     <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeapYear" />
+      <module name="kodilla-course.kodilla-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,10 +106,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.FirstClass" />
+        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.SimpleArray" />
         <item itemvalue="Application.LeapYear" />
         <item itemvalue="Application.Warunkowanie" />
-        <item itemvalue="Application.DebugExample" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +134,13 @@
       <workItem from="1698613533354" duration="1108000" />
       <workItem from="1698747524021" duration="747000" />
       <workItem from="1699211126544" duration="2247000" />
+      <workItem from="1699264800915" duration="9799000" />
+      <workItem from="1699457109126" duration="1333000" />
+      <workItem from="1699460418346" duration="5114000" />
+      <workItem from="1699467958248" duration="9000" />
+      <workItem from="1699540439276" duration="25000" />
+      <workItem from="1699540480559" duration="4366000" />
+      <workItem from="1699628151689" duration="5223000" />
     </task>
     <servers />
   </component>
