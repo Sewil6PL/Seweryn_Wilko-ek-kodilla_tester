@@ -28,20 +28,21 @@ public class Notebook {
 
 
     }
-    public void checkyearOfProduction(){
-        if (this.yearOfProduction <= 2012){
+    public void checkerOfProduction(){
+        if (this.yearOfProduction <= 2014){
             if (this.price < 800) {
                 System.out.println("This notebook is old but cheap.");
             }else {
                 System.out.println("This notebook is old and expensive");
             }
-        } else if (this.yearOfProduction <= 2015){
+        } else if (this.yearOfProduction <= 2019){
             if (this.price < 800) {
                 System.out.println("This notebook is not old and it is cheap.");
             }else{
                 System.out.println("This notebook is not old but expensive");
             }
-            } else if (this.yearOfProduction >= 2020){
+
+        }else if (this.yearOfProduction > 2019){
             if (this.price < 800) {
                 System.out.println("This notebook is new and cheap.");
             }else{
