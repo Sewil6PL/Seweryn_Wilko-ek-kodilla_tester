@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Grades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/RandomNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Warunkowanie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Zmienne.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +67,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstClass">
+  <component name="RunManager" selected="Application.RandomNumbers">
     <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FirstClass" />
-      <module name="kodilla-course.kodilla-intro.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeapYear" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,6 +82,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomNumbers" />
+      <module name="kodilla-course.kodilla-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleArray" />
       <module name="kodilla-course.kodilla-intro.main" />
@@ -93,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Warunkowanie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Warunkowanie" />
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="User" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomNumbers" />
+        <item itemvalue="Application.User" />
         <item itemvalue="Application.FirstClass" />
         <item itemvalue="Application.Loops" />
         <item itemvalue="Application.SimpleArray" />
-        <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.Warunkowanie" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +141,9 @@
       <workItem from="1699540439276" duration="25000" />
       <workItem from="1699540480559" duration="4366000" />
       <workItem from="1699628151689" duration="6996000" />
-      <workItem from="1699714938479" duration="5878000" />
+      <workItem from="1699714938479" duration="9243000" />
+      <workItem from="1699789320551" duration="1720000" />
+      <workItem from="1699797895299" duration="5731000" />
     </task>
     <servers />
   </component>
