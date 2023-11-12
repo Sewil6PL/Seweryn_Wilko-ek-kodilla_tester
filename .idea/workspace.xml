@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/RandomNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Warunkowanie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Zmienne.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +140,7 @@
       <workItem from="1699628151689" duration="6996000" />
       <workItem from="1699714938479" duration="9243000" />
       <workItem from="1699789320551" duration="1720000" />
-      <workItem from="1699797895299" duration="5731000" />
+      <workItem from="1699797895299" duration="6404000" />
     </task>
     <servers />
   </component>
