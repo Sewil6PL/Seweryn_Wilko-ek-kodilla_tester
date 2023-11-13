@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/AdvCalcApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/AdvCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/UserDialogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/UserDialogs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +68,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomNumbers">
-    <configuration name="FirstClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FirstClass" />
+  <component name="RunManager" selected="Application.AdvCalcApplication">
+    <configuration name="AdvCalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdvCalcApplication" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops" />
+    <configuration name="AdvCalculator$AdvCalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdvCalculator$AdvCalcApplication" />
+      <module name="kodilla-course.kodilla-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="kodilla-course.kodilla-intro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalcApplication" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,27 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleArray" />
-      <module name="kodilla-course.kodilla-intro.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="User" />
-      <module name="kodilla-course.kodilla-intro.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdvCalcApplication" />
+        <item itemvalue="Application.AdvCalculator$AdvCalcApplication" />
+        <item itemvalue="Application.CalcApplication" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.RandomNumbers" />
-        <item itemvalue="Application.User" />
-        <item itemvalue="Application.FirstClass" />
-        <item itemvalue="Application.Loops" />
-        <item itemvalue="Application.SimpleArray" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +144,9 @@
       <workItem from="1699628151689" duration="6996000" />
       <workItem from="1699714938479" duration="9243000" />
       <workItem from="1699789320551" duration="1720000" />
-      <workItem from="1699797895299" duration="7653000" />
+      <workItem from="1699797895299" duration="13154000" />
+      <workItem from="1699821842416" duration="1200000" />
+      <workItem from="1699870182853" duration="2442000" />
     </task>
     <servers />
   </component>
