@@ -34,4 +34,21 @@ public class Book {
     public void setTitle(String title) {
         this.title = title;
     }
+
+    @Override
+    public String toString() {
+        Object o;
+        return "Book{" +
+                "author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                '}';
+    }
+}
+class TestApp5{
+    public static void main(String[] args) {
+        Book b1 = Book.of("Jan Kowalski", "Swiat");
+        System.out.println(b1.getTitle());
+        System.out.println(b1.getAuthor());
+        System.out.println(b1);
+    }
 }

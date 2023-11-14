@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/AdvCalcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/AdvCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/UserDialogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/UserDialogs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/UserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Grades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/Notebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/Notebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/RandomNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/RandomNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-intro/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-intro/src/main/java/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,37 +70,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdvCalcApplication">
-    <configuration name="AdvCalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdvCalcApplication" />
+  <component name="RunManager" selected="Application.TestApp6">
+    <configuration name="TestApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestApp2" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvCalculator$AdvCalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdvCalculator$AdvCalcApplication" />
+    <configuration name="TestApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestApp3" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Application" />
+    <configuration name="TestApp4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestApp4" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalcApplication" />
+    <configuration name="TestApp5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestApp5" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomNumbers" />
+    <configuration name="TestApp6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestApp6" />
       <module name="kodilla-course.kodilla-intro.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AdvCalcApplication" />
-        <item itemvalue="Application.AdvCalculator$AdvCalcApplication" />
-        <item itemvalue="Application.CalcApplication" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.RandomNumbers" />
+        <item itemvalue="Application.TestApp6" />
+        <item itemvalue="Application.TestApp5" />
+        <item itemvalue="Application.TestApp4" />
+        <item itemvalue="Application.TestApp3" />
+        <item itemvalue="Application.TestApp2" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +148,8 @@
       <workItem from="1699789320551" duration="1720000" />
       <workItem from="1699797895299" duration="13154000" />
       <workItem from="1699821842416" duration="1200000" />
-      <workItem from="1699870182853" duration="2442000" />
+      <workItem from="1699870182853" duration="2680000" />
+      <workItem from="1699944719250" duration="3101000" />
     </task>
     <servers />
   </component>

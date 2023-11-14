@@ -1,6 +1,6 @@
 public class User {
-    String name;
-    int age;
+    private final String name;
+    private final int age;
 
     public User(String name, int age) {
         this.name = name;
@@ -16,6 +16,9 @@ public class User {
         return age;
     }
 
+
+}
+class TestApp3{
     public static void main(String[] args) {
         User[] users = new User[5];
         users[0] = new User("Maciej", 25);

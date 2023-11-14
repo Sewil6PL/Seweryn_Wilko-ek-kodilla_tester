@@ -1,14 +1,14 @@
 import java.util.Random;
 
 public class RandomNumbers {
-    int minValue;
-    int maxValue;
+    private int minValue;
+    private int maxValue;
 
-    public void generateRandomNumbers(){
+    public void generateRandomNumbers() {
         Random random = new Random();
         int sum = 0;
 
-        while (sum <= 5000){
+        while (sum <= 100) {
             int randomNumber = random.nextInt(31);
             sum += randomNumber;
 
@@ -29,6 +29,10 @@ public class RandomNumbers {
     public int getMaxValue() {
         return maxValue;
     }
+
+
+}
+class TestApp2{
     public static void main(String[] args) {
         RandomNumbers randomNumbers = new RandomNumbers();
         randomNumbers.generateRandomNumbers();
@@ -37,4 +41,3 @@ public class RandomNumbers {
         System.out.println("Najmniejsza wylosowana wartość: " + randomNumbers.getMinValue());
     }
 }
-
