@@ -9,7 +9,7 @@ public class Calculator {
         return a - b;
     }
 
-    public int exponentiation(int a, int b){
+    public int exponentiation(double  a, double  b){
         return (int) Math.pow(a, b);
     }
 }
