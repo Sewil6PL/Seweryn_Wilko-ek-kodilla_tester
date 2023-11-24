@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/CashMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/basic_assertion/PrimeChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/school/Grades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/school/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/PrimeCheckerTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/school/GradesTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/school/StudentTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/bank/BankTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/bank/CashMachineTestSuit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/basic_assertion/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/basic_assertion/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/basic_assertion/ResultChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/basic_assertion/ResultChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/CalculatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/CalculatorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/CashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/CashMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +86,34 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTestSuite.testsubtract">
-    <configuration name="CalculatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.BankTestSuite">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.abstracts.homework.Shape.Application" />
+      <module name="kodilla-course.kodilla-basic-tests.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.abstracts.homework.Shape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.inheritance.homework.Computer" />
+      <module name="kodilla-course.kodilla-basic-tests.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.inheritance.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -107,7 +126,7 @@
           <list>
             <option value=":kodilla-basic-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.basic_assertion.CalculatorTestSuite&quot;" />
+            <option value="&quot;com.kodilla.basic_assertion.bank.BankTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -118,7 +137,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTestSuite.testsubtract" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CalculatorTestSuite.testExponentiation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -131,7 +150,7 @@
           <list>
             <option value=":kodilla-basic-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.basic_assertion.CalculatorTestSuite.testsubtract&quot;" />
+            <option value="&quot;com.kodilla.basic_assertion.CalculatorTestSuite.testExponentiation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +161,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StudentTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CashMachineTestSuit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,55 +174,7 @@
           <list>
             <option value=":kodilla-basic-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.basic_assertion.school.StudentTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StudentTestSuite.shouldCalculateStudentAverage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-basic-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.basic_assertion.school.StudentTestSuite.shouldCalculateStudentAverage&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'com.kodilla.basic_assertion.school'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-basic-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.basic_assertion.school.*&quot;" />
+            <option value="&quot;com.kodilla.basic_assertion.bank.CashMachineTestSuit&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -216,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalculatorTestSuite.testsubtract" />
-        <item itemvalue="Gradle.CalculatorTestSuite" />
-        <item itemvalue="Gradle.Tests in 'com.kodilla.basic_assertion.school'" />
-        <item itemvalue="Gradle.StudentTestSuite" />
-        <item itemvalue="Gradle.StudentTestSuite.shouldCalculateStudentAverage" />
+        <item itemvalue="Gradle.BankTestSuite" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Computer" />
+        <item itemvalue="Gradle.CashMachineTestSuit" />
+        <item itemvalue="Gradle.CalculatorTestSuite.testExponentiation" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +235,8 @@
       <workItem from="1700396795231" duration="14477000" />
       <workItem from="1700494627679" duration="11154000" />
       <workItem from="1700572521114" duration="1108000" />
-      <workItem from="1700574393293" duration="2726000" />
+      <workItem from="1700574393293" duration="9038000" />
+      <workItem from="1700831201771" duration="7698000" />
     </task>
     <servers />
   </component>
