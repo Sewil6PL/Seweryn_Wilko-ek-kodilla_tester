@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/bank/BankTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/test/java/com/kodilla/basic_assertion/bank/CashMachineTestSuit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/CashMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-basic-tests/src/main/java/com/kodilla/bank/homework/CashMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +232,8 @@
       <workItem from="1700494627679" duration="11154000" />
       <workItem from="1700572521114" duration="1108000" />
       <workItem from="1700574393293" duration="9038000" />
-      <workItem from="1700831201771" duration="7698000" />
+      <workItem from="1700831201771" duration="8433000" />
+      <workItem from="1700997359205" duration="1249000" />
     </task>
     <servers />
   </component>
