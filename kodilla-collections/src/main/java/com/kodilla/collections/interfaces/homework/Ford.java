@@ -18,6 +18,13 @@ public class Ford implements Car {
     }
 
     @Override
+    public String toString() {
+        return "Ford{" +
+                "speed=" + speed +
+                '}';
+    }
+
+    @Override
     public void decreaseSpeed() {
         speed -= 10;
         if (speed < 0) {
