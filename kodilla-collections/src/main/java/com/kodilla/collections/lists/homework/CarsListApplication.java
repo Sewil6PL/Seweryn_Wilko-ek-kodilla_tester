@@ -31,7 +31,9 @@ public class CarsListApplication {
 
         System.out.println("Zawartość kolekcji po usunięciu:");
         System.out.println(carsList.size());
-        for (Car car : carsList) ;
+        for (Car car : carsList) {
+            CarUtils.describeCar(car);
+        }
 
     }
 }

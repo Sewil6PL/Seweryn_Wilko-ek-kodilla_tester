@@ -10,16 +10,22 @@ import java.util.Random;
 public class CarsApplication {
     public static Car drawCar() {
         Random random = new Random();
-        int randomSpeed = random.nextInt(100);
+        int randomSpeed = random.nextInt(5);
         int carType = random.nextInt(3);
 
         switch (carType) {
             case 0:
-                return new Ford();
+                Ford ford = new Ford();
+                for (int i = 0; i < randomSpeed; i++) ford.increaseSpeed();
+                return ford;
             case 1:
-                return new Opel();
+                Opel opel = new Opel();
+                for (int i = 0; i < randomSpeed; i++) opel.increaseSpeed();
+                return opel;
             case 2:
-                return new Kia();
+                Kia kia = new Kia();
+                for (int i = 0; i < randomSpeed; i++) kia.increaseSpeed();
+                return kia;
             default:
                 throw new IllegalStateException("Unexpected value: " + carType);
         }
