@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/BasicMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/ComplexMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/Grades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/SchoolDirectory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/arrays/homework/CarsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-collections/src/main/java/com/kodilla/collections/arrays/homework/CarsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +80,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.collections.adv.maps.complex" />
       <recent name="com.kodilla.inheritance.homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -85,7 +94,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarsListApplication">
+  <component name="RunManager" selected="Application.SchoolDirectory">
+    <configuration name="BasicMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.maps.BasicMapExample" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.collections.adv.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.arrays.homework.CarsApplication" />
       <module name="kodilla-course.kodilla-collections.main" />
@@ -99,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarsListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.lists.homework.CarsListApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
+    <configuration name="ComplexMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.maps.complex.ComplexMapExample" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.lists.homework.*" />
+          <option name="PATTERN" value="com.kodilla.collections.adv.maps.complex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,25 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneralShapesListApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.lists.GeneralShapesListApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
+    <configuration name="SchoolDirectory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.maps.homework.SchoolDirectory" />
+      <module name="kodilla-course.kodilla-collections-advanced.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.sets.OrderApplication" />
-      <module name="kodilla-course.kodilla-collections.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.sets.*" />
+          <option name="PATTERN" value="com.kodilla.collections.adv.maps.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SchoolDirectory" />
+        <item itemvalue="Application.ComplexMapExample" />
+        <item itemvalue="Application.BasicMapExample" />
         <item itemvalue="Application.CarsApplication" />
         <item itemvalue="Application.StampsApplication" />
-        <item itemvalue="Application.OrderApplication" />
-        <item itemvalue="Application.CarsListApplication" />
-        <item itemvalue="Application.GeneralShapesListApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +214,11 @@
       <workItem from="1700831201771" duration="8433000" />
       <workItem from="1700997359205" duration="17494000" />
       <workItem from="1701071087752" duration="5822000" />
-      <workItem from="1701154330555" duration="1080000" />
+      <workItem from="1701154330555" duration="2012000" />
+      <workItem from="1701428578872" duration="13436000" />
+      <workItem from="1701605174206" duration="1275000" />
+      <workItem from="1701620563987" duration="1780000" />
+      <workItem from="1701685177009" duration="1525000" />
     </task>
     <servers />
   </component>
