@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/dictionary/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/dictionary/EnglishWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/dictionary/PartOfSpeech.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/FlightFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/FlightRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/test/java/com/kodilla/collections/adv/exercises/dictionary/DictionaryTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-collections-advanced/src/test/java/com/kodilla/collections/adv/exercises/homework/FlightFinderTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/OptionalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/homework/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/homework/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/homework/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/optional/homework/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/UsersManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-collections-advanced/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +52,8 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,6 +73,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.ApplicationTest.executor": "Run",
+    "Gradle.UsersManagerTest.executor": "Run",
+    "Gradle.UsersManagerTest.testFilterChemistGroupUsernames.executor": "Run",
+    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:Application.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:OptionalExample.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:UsersManager.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -76,6 +86,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +96,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.language",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +106,8 @@
       <recent name="com.kodilla.inheritance.homework" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-stream\src\main" />
+      <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-stream2" />
       <recent name="C:\Users\PC\IdeaProjects\kodilla-course" />
       <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-intro" />
     </key>
@@ -107,17 +121,18 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.stream" />
       <recent name="com.kodilla.collections.adv.exercises.homework" />
       <recent name="com.kodilla.collections.adv.exercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FlightFinderTestSuite">
-    <configuration name="ImmutableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.collections.adv.immutable.ImmutableExample" />
-      <module name="kodilla-course.kodilla-collections-advanced.main" />
+  <component name="RunManager" selected="Gradle.ApplicationTest">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.optional.homework.Application" />
+      <module name="kodilla-course.kodilla-stream.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.collections.adv.immutable.*" />
+          <option name="PATTERN" value="com.kodilla.optional.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,7 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DictionaryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.optional.OptionalExample" />
+      <module name="kodilla-course.kodilla-stream.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -136,9 +164,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-collections-advanced:test" />
+            <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.dictionary.DictionaryTestSuite&quot;" />
+            <option value="&quot;com.kodilla.optional.homework.ApplicationTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -149,7 +177,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DictionaryTestSuite.testFindEnglishWords" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UsersManagerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,9 +188,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-collections-advanced:test" />
+            <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.dictionary.DictionaryTestSuite.testFindEnglishWords&quot;" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,7 +201,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DictionaryTestSuite.testFindEnglishWords_withPartOfSpeech" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UsersManagerTest.testFilterChemistGroupUsernames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -184,33 +212,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-collections-advanced:test" />
+            <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.dictionary.DictionaryTestSuite.testFindEnglishWords_withPartOfSpeech&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="FlightFinderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-collections-advanced:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.collections.adv.exercises.homework.FlightFinderTestSuite&quot;" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest.testFilterChemistGroupUsernames&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -223,13 +227,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FlightFinderTestSuite" />
-        <item itemvalue="Gradle.DictionaryTestSuite.testFindEnglishWords_withPartOfSpeech" />
-        <item itemvalue="Gradle.DictionaryTestSuite" />
-        <item itemvalue="Gradle.DictionaryTestSuite.testFindEnglishWords" />
-        <item itemvalue="Application.ImmutableExample" />
+        <item itemvalue="Gradle.ApplicationTest" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.OptionalExample" />
+        <item itemvalue="Gradle.UsersManagerTest.testFilterChemistGroupUsernames" />
+        <item itemvalue="Gradle.UsersManagerTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -280,7 +291,14 @@
       <workItem from="1701605174206" duration="1275000" />
       <workItem from="1701620563987" duration="1780000" />
       <workItem from="1701685177009" duration="4996000" />
-      <workItem from="1701774037406" duration="9024000" />
+      <workItem from="1701774037406" duration="10850000" />
+      <workItem from="1702129269290" duration="2964000" />
+      <workItem from="1702159224947" duration="928000" />
+      <workItem from="1702203610308" duration="1582000" />
+      <workItem from="1702205575834" duration="1196000" />
+      <workItem from="1702206965385" duration="2831000" />
+      <workItem from="1702287896481" duration="698000" />
+      <workItem from="1702289235400" duration="7164000" />
     </task>
     <servers />
   </component>
