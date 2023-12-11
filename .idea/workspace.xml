@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/OptionalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/homework/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/optional/homework/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/optional/homework/ApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/UsersManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/UsersManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/UsersManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/UsersManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +65,9 @@
     "Gradle.ApplicationTest.executor": "Run",
     "Gradle.UsersManagerTest.executor": "Run",
     "Gradle.UsersManagerTest.testFilterChemistGroupUsernames.executor": "Run",
+    "Gradle.UsersManagerTest.testFilterUsersOlderThan.executor": "Run",
+    "Gradle.UsersManagerTest.testFilterUsersOlderThanWithEmptyList.executor": "Run",
+    "Gradle.UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers.executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:Application.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:OptionalExample.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:UsersManager.main()].executor": "Run",
@@ -126,56 +118,19 @@
       <recent name="com.kodilla.collections.adv.exercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ApplicationTest">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.optional.homework.Application" />
+  <component name="RunManager" selected="Application.UsersManager">
+    <configuration name="UsersManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.UsersManager" />
       <module name="kodilla-course.kodilla-stream.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.optional.homework.*" />
+          <option name="PATTERN" value="com.kodilla.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.optional.OptionalExample" />
-      <module name="kodilla-course.kodilla-stream.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.optional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-stream:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.optional.homework.ApplicationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="UsersManagerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -201,7 +156,31 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UsersManagerTest.testFilterChemistGroupUsernames" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UsersManagerTest.testFilterUsersOlderThan" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-stream:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest.testFilterUsersOlderThan&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UsersManagerTest.testFilterUsersOlderThanWithEmptyList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -214,7 +193,31 @@
           <list>
             <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.stream.UsersManagerTest.testFilterChemistGroupUsernames&quot;" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest.testFilterUsersOlderThanWithEmptyList&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-stream:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.stream.UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -227,10 +230,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ApplicationTest" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.OptionalExample" />
-        <item itemvalue="Gradle.UsersManagerTest.testFilterChemistGroupUsernames" />
+        <item itemvalue="Application.UsersManager" />
+        <item itemvalue="Gradle.UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers" />
+        <item itemvalue="Gradle.UsersManagerTest.testFilterUsersOlderThanWithEmptyList" />
+        <item itemvalue="Gradle.UsersManagerTest.testFilterUsersOlderThan" />
         <item itemvalue="Gradle.UsersManagerTest" />
       </list>
     </recent_temporary>
@@ -298,7 +301,7 @@
       <workItem from="1702205575834" duration="1196000" />
       <workItem from="1702206965385" duration="2831000" />
       <workItem from="1702287896481" duration="698000" />
-      <workItem from="1702289235400" duration="7164000" />
+      <workItem from="1702289235400" duration="9697000" />
     </task>
     <servers />
   </component>
