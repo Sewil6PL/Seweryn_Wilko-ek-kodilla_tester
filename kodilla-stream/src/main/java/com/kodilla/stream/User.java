@@ -15,6 +15,9 @@ public class User {
         this.group = group;
     }
 
+    public User(String user1, int age, int numberOfPost) {
+    }
+
     public String getUsername() {
         return username;
     }
@@ -43,4 +46,7 @@ public class User {
     public int hashCode() {
         return Objects.hash(username, age, numberOfPost, group);
     }
+
+
+
 }
