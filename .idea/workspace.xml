@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/AirportNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/AirportRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/FirstExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/SecondExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/ThirdExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/UserDialogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/homework/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/homework/OrderDoesntExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/homework/Warehouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/homework/WarehouseApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/AverageAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/homework/ForumStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/homework/ForumStatsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/exception/AirportRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +40,8 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -74,6 +61,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AirportRepositoryTest.executor": "Run",
+    "Gradle.AirportRepositoryTest.testIsAirpirtInuse_withException.executor": "Run",
     "Gradle.ApplicationTest.executor": "Run",
     "Gradle.ForumStatsTest.executor": "Run",
     "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersAbove40.executor": "Run",
@@ -134,39 +123,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.exception" />
       <recent name="com.kodilla.stream.homework" />
       <recent name="com.kodilla.stream" />
       <recent name="com.kodilla.collections.adv.exercises.homework" />
       <recent name="com.kodilla.collections.adv.exercises.dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WarehouseApp">
-    <configuration name="FirstExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.FirstExample" />
-      <module name="kodilla-course.kodilla-stream.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecondExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.SecondExample" />
-      <module name="kodilla-course.kodilla-stream.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.WarehouseTest">
     <configuration name="ThirdExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.ThirdExample" />
       <module name="kodilla-course.kodilla-stream.main" />
@@ -193,7 +157,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumStatsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AirportRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -206,7 +170,55 @@
           <list>
             <option value=":kodilla-stream:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.stream.homework.ForumStatsTest&quot;" />
+            <option value="&quot;com.kodilla.exception.AirportRepositoryTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="AirportRepositoryTest.testIsAirpirtInuse_withException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-stream:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.exception.AirportRepositoryTest.testIsAirpirtInuse_withException&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WarehouseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-stream:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.exception.homework.WarehouseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.WarehouseTest" />
+        <item itemvalue="Gradle.AirportRepositoryTest.testIsAirpirtInuse_withException" />
+        <item itemvalue="Gradle.AirportRepositoryTest" />
         <item itemvalue="Application.WarehouseApp" />
         <item itemvalue="Application.ThirdExample" />
-        <item itemvalue="Application.SecondExample" />
-        <item itemvalue="Application.FirstExample" />
-        <item itemvalue="Gradle.ForumStatsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +303,7 @@
       <workItem from="1702206965385" duration="2831000" />
       <workItem from="1702287896481" duration="698000" />
       <workItem from="1702289235400" duration="14161000" />
-      <workItem from="1702387045585" duration="4133000" />
+      <workItem from="1702387045585" duration="5696000" />
     </task>
     <servers />
   </component>
