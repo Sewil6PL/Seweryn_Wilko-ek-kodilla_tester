@@ -14,7 +14,7 @@ public class WarehouseApp {
             Order order = warehouse.getOrder("B456");
             System.out.println("Found order: " + order.getNumber());
         } catch (OrderDoesntExistException e) {
-            System.err.println("Error: " + e.getMessage());
+            System.err.println("Błąd: " + e.getMessage());
         }
 
         try {
@@ -22,7 +22,7 @@ public class WarehouseApp {
             Order order = warehouse.getOrder("X999");
             System.out.println("Found order: " + order.getNumber());
         } catch (OrderDoesntExistException e) {
-            System.err.println("Error: " + e.getMessage());
+            System.err.println("Błąd: " + e.getMessage());
         }
     }
 }

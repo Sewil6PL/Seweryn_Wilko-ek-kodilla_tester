@@ -15,7 +15,10 @@ public class User {
         this.group = group;
     }
 
-    public User(String user1, int age, int numberOfPost) {
+    public User(String username, int age, int numberOfPost) {
+        this.username = username;
+        this.age = age;
+        this.numberOfPost = numberOfPost;
     }
 
     public String getUsername() {
