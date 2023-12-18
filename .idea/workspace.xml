@@ -5,38 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/NumberChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringManipulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/UserValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/NumberCheckerTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringValidatorTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/GamblingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/InvalidNumbersException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/GamblingMachineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/com/kodilla/parametrized_tests/homework/validNumbers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/invalidNumbers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/stringWithLowerCase.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/validNumbers.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/dictionary/Dictionary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/dictionary/EnglishWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/dictionary/PartOfSpeech.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/Flight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/FlightFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/exercises/homework/FlightRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/BookRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/ImmutableExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/homework/NewTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/immutable/homework/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/BasicMapExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/ComplexMapExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/Grades.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/complex/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/School.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/main/java/com/kodilla/collections/adv/maps/homework/SchoolDirectory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/test/java/com/kodilla/collections/adv/exercises/dictionary/DictionaryTestSuite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-collections-advanced/src/test/java/com/kodilla/collections/adv/exercises/homework/FlightFinderTestSuite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/homework/WarehouseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/exception/homework/WarehouseApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringValidatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringValidatorTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +48,8 @@
         <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -98,6 +76,9 @@
     "Gradle.ForumStatsTest.executor": "Run",
     "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersAbove40.executor": "Run",
     "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersBelow40.executor": "Run",
+    "Gradle.GamblingMachineTest.executor": "Run",
+    "Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers.executor": "Run",
+    "Gradle.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers.executor": "Run",
     "Gradle.NumberCheckerTest.executor": "Run",
     "Gradle.NumberCheckerTestSuite (1).executor": "Run",
     "Gradle.NumberCheckerTestSuite.executor": "Run",
@@ -109,6 +90,7 @@
     "Gradle.StringManipulatorTestSuite.shouldCountNumberOfCommas.executor": "Run",
     "Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase.executor": "Run",
     "Gradle.StringValidatorTestSuite.executor": "Run",
+    "Gradle.UserValidatorTest.executor": "Run",
     "Gradle.UsersManagerTest.executor": "Run",
     "Gradle.UsersManagerTest.testFilterChemistGroupUsernames.executor": "Run",
     "Gradle.UsersManagerTest.testFilterUsersOlderThan.executor": "Run",
@@ -126,6 +108,7 @@
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:ThirdExample.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:UsersManager.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:WarehouseApp.main()].executor": "Run",
+    "Gradle.shouldReverseStringWithLowerCase.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -168,14 +151,86 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.parametrized_tests.homework" />
       <recent name="com.kodilla.parametrized_tests" />
       <recent name="parametrized_tests" />
       <recent name="com.kodilla.exception.homework" />
       <recent name="com.kodilla.exception" />
-      <recent name="com.kodilla.stream.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.UserValidatorTest">
+  <component name="RunManager" selected="Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers">
+    <configuration name="GamblingMachineTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-advanced-tests:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GamblingMachineTest.shouldCountCorrectWinsForValidNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-advanced-tests:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="GamblingMachineTest.shouldThrowExceptionForInvalidNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-advanced-tests:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="StringManipulatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -200,7 +255,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringManipulatorTestSuite.shouldCountNumberOfCommas" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="shouldReverseStringWithLowerCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -213,79 +268,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite.shouldCountNumberOfCommas&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StringManipulatorTestSuite.shouldReverseStringWithLowerCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite.shouldReverseStringWithLowerCase&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StringValidatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringValidatorTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTest&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.shouldReverseStringWithLowerCase&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -298,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserValidatorTest" />
+        <item itemvalue="Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers" />
+        <item itemvalue="Gradle.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers" />
+        <item itemvalue="Gradle.GamblingMachineTest" />
         <item itemvalue="Gradle.StringManipulatorTestSuite" />
-        <item itemvalue="Gradle.StringManipulatorTestSuite.shouldCountNumberOfCommas" />
-        <item itemvalue="Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase" />
-        <item itemvalue="Gradle.StringValidatorTestSuite" />
+        <item itemvalue="Gradle.shouldReverseStringWithLowerCase" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +354,7 @@
       <workItem from="1702287896481" duration="698000" />
       <workItem from="1702289235400" duration="14161000" />
       <workItem from="1702387045585" duration="8577000" />
-      <workItem from="1702901465134" duration="6619000" />
+      <workItem from="1702901465134" duration="9821000" />
     </task>
     <servers />
   </component>
