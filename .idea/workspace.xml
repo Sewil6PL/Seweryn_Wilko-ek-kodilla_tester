@@ -5,18 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/homework/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/homework/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringSources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/provideTestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/execution_model/InvoiceTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/execution_model/homework/ShopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/MobilePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/WeatherAlertService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/MobilePhoneTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/NotificationServiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/WeatherAlertServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/homework/WeatherAlertServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +50,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Record" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,6 +86,14 @@
     "Gradle.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers.executor": "Run",
     "Gradle.GamblingMachineTest.shouldThrowInvalidNumbersExceptionForInvalidNumbers.executor": "Run",
     "Gradle.InvoiceTestSuite.executor": "Run",
+    "Gradle.MobilePhoneTestSuite.executor": "Run",
+    "Gradle.MobilePhoneTestSuite.shouldCallLaunchApplication.executor": "Run",
+    "Gradle.NotificationServiceTestSuite.executor": "Run",
+    "Gradle.NotificationServiceTestSuite.notSubscribedClientShouldNotReceiveNotification.executor": "Run",
+    "Gradle.NotificationServiceTestSuite.notificationShouldBeSentToAllSubscribedClients.executor": "Run",
+    "Gradle.NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber.executor": "Run",
+    "Gradle.NotificationServiceTestSuite.subscribedClientShouldReceiveNotification.executor": "Run",
+    "Gradle.NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification.executor": "Run",
     "Gradle.NumberCheckerTest.executor": "Run",
     "Gradle.NumberCheckerTestSuite (1).executor": "Run",
     "Gradle.NumberCheckerTestSuite.executor": "Run",
@@ -91,6 +102,7 @@
     "Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree (1).executor": "Run",
     "Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree.executor": "Run",
     "Gradle.PersonTest.executor": "Run",
+    "Gradle.PersonTest.shouldReturnCorrectBMICategory.executor": "Run",
     "Gradle.ShopTest.executor": "Run",
     "Gradle.ShopTest.shouldAddOrder.executor": "Run",
     "Gradle.ShopTest.shouldGetOrdersInDateRange.executor": "Run",
@@ -107,6 +119,7 @@
     "Gradle.UsersManagerTest.testFilterUsersOlderThanWithEmptyList.executor": "Run",
     "Gradle.UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers.executor": "Run",
     "Gradle.WarehouseTest.executor": "Run",
+    "Gradle.WeatherAlertServiceTest.shouldSubscribePersonToLocation.executor": "Run",
     "Gradle.kodilla-course [dependencies].executor": "Run",
     "Gradle.kodilla-course [test].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:Application.main()].executor": "Run",
@@ -168,8 +181,8 @@
       <recent name="parametrized_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ShopTest.shouldGetOrdersInDateRange">
-    <configuration name="InvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.WeatherAlertServiceTest">
+    <configuration name="NotificationServiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -182,7 +195,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.execution_model.InvoiceTestSuite&quot;" />
+            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,7 +206,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="PersonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -206,7 +219,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.PersonTest&quot;" />
+            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,7 +230,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ShopTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -230,7 +243,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.execution_model.homework.ShopTest&quot;" />
+            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -241,7 +254,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ShopTest.shouldAddOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WeatherAlertServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -254,7 +267,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.execution_model.homework.ShopTest.shouldAddOrder&quot;" />
+            <option value="&quot;com.kodilla.mockito.homework.WeatherAlertServiceTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -265,7 +278,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ShopTest.shouldGetOrdersInDateRange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WeatherAlertServiceTest.shouldSubscribePersonToLocation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -278,7 +291,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.execution_model.homework.ShopTest.shouldGetOrdersInDateRange&quot;" />
+            <option value="&quot;com.kodilla.mockito.homework.WeatherAlertServiceTest.shouldSubscribePersonToLocation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -291,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ShopTest.shouldGetOrdersInDateRange" />
-        <item itemvalue="Gradle.ShopTest.shouldAddOrder" />
-        <item itemvalue="Gradle.ShopTest" />
-        <item itemvalue="Gradle.InvoiceTestSuite" />
-        <item itemvalue="Gradle.PersonTest" />
+        <item itemvalue="Gradle.WeatherAlertServiceTest" />
+        <item itemvalue="Gradle.WeatherAlertServiceTest.shouldSubscribePersonToLocation" />
+        <item itemvalue="Gradle.NotificationServiceTestSuite" />
+        <item itemvalue="Gradle.NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification" />
+        <item itemvalue="Gradle.NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +380,7 @@
       <workItem from="1702901465134" duration="14714000" />
       <workItem from="1702926188065" duration="5872000" />
       <workItem from="1702943930270" duration="1233000" />
-      <workItem from="1702987859240" duration="665000" />
+      <workItem from="1702987859240" duration="7346000" />
     </task>
     <servers />
   </component>
