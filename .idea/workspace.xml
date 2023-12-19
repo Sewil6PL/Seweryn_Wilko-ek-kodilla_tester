@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/GamblingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/InvalidNumbersException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/GamblingMachineTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/com/kodilla/parametrized_tests/homework/validNumbers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/invalidNumbers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/stringWithLowerCase.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/resources/validNumbers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/homework/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/execution_model/homework/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/provideTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/execution_model/InvoiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/execution_model/homework/ShopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/homework/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringManipulatorTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringValidatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringValidatorTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +81,8 @@
     "Gradle.GamblingMachineTest.executor": "Run",
     "Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers.executor": "Run",
     "Gradle.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers.executor": "Run",
+    "Gradle.GamblingMachineTest.shouldThrowInvalidNumbersExceptionForInvalidNumbers.executor": "Run",
+    "Gradle.InvoiceTestSuite.executor": "Run",
     "Gradle.NumberCheckerTest.executor": "Run",
     "Gradle.NumberCheckerTestSuite (1).executor": "Run",
     "Gradle.NumberCheckerTestSuite.executor": "Run",
@@ -86,9 +90,15 @@
     "Gradle.NumberCheckerTestSuite.shouldReturnFalseForNumberNotDivisibleByThree.executor": "Run",
     "Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree (1).executor": "Run",
     "Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree.executor": "Run",
+    "Gradle.PersonTest.executor": "Run",
+    "Gradle.ShopTest.executor": "Run",
+    "Gradle.ShopTest.shouldAddOrder.executor": "Run",
+    "Gradle.ShopTest.shouldGetOrdersInDateRange.executor": "Run",
     "Gradle.StringManipulatorTestSuite.executor": "Run",
+    "Gradle.StringManipulatorTestSuite.shouldCalculateStringLengthWithoutSpaces.executor": "Run",
     "Gradle.StringManipulatorTestSuite.shouldCountNumberOfCommas.executor": "Run",
     "Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase.executor": "Run",
+    "Gradle.StringSourcesTest.executor": "Run",
     "Gradle.StringValidatorTestSuite.executor": "Run",
     "Gradle.UserValidatorTest.executor": "Run",
     "Gradle.UsersManagerTest.executor": "Run",
@@ -151,15 +161,15 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.execution_model.homework" />
+      <recent name="com.kodilla.execution_model" />
       <recent name="com.kodilla.parametrized_tests.homework" />
       <recent name="com.kodilla.parametrized_tests" />
       <recent name="parametrized_tests" />
-      <recent name="com.kodilla.exception.homework" />
-      <recent name="com.kodilla.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers">
-    <configuration name="GamblingMachineTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ShopTest.shouldGetOrdersInDateRange">
+    <configuration name="InvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +182,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTest&quot;" />
+            <option value="&quot;com.kodilla.execution_model.InvoiceTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,31 +193,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="GamblingMachineTest.shouldCountCorrectWinsForValidNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--scan" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="GamblingMachineTest.shouldThrowExceptionForInvalidNumbers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PersonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -220,7 +206,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.PersonTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -231,7 +217,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringManipulatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -244,7 +230,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite&quot;" />
+            <option value="&quot;com.kodilla.execution_model.homework.ShopTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -255,7 +241,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="shouldReverseStringWithLowerCase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopTest.shouldAddOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -268,7 +254,31 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.shouldReverseStringWithLowerCase&quot;" />
+            <option value="&quot;com.kodilla.execution_model.homework.ShopTest.shouldAddOrder&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShopTest.shouldGetOrdersInDateRange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-advanced-tests:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.execution_model.homework.ShopTest.shouldGetOrdersInDateRange&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -281,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers" />
-        <item itemvalue="Gradle.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers" />
-        <item itemvalue="Gradle.GamblingMachineTest" />
-        <item itemvalue="Gradle.StringManipulatorTestSuite" />
-        <item itemvalue="Gradle.shouldReverseStringWithLowerCase" />
+        <item itemvalue="Gradle.ShopTest.shouldGetOrdersInDateRange" />
+        <item itemvalue="Gradle.ShopTest.shouldAddOrder" />
+        <item itemvalue="Gradle.ShopTest" />
+        <item itemvalue="Gradle.InvoiceTestSuite" />
+        <item itemvalue="Gradle.PersonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +364,10 @@
       <workItem from="1702287896481" duration="698000" />
       <workItem from="1702289235400" duration="14161000" />
       <workItem from="1702387045585" duration="8577000" />
-      <workItem from="1702901465134" duration="9821000" />
+      <workItem from="1702901465134" duration="14714000" />
+      <workItem from="1702926188065" duration="5872000" />
+      <workItem from="1702943930270" duration="1233000" />
+      <workItem from="1702987859240" duration="665000" />
     </task>
     <servers />
   </component>
