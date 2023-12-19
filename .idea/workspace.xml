@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/MobilePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/mockito/homework/WeatherAlertService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/MobilePhoneTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/NotificationServiceTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/WeatherAlertServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/mockito/homework/WeatherAlertServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringSources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringSources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/provideTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/provideTestData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +30,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kodilla-course" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -119,6 +115,7 @@
     "Gradle.UsersManagerTest.testFilterUsersOlderThanWithEmptyList.executor": "Run",
     "Gradle.UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers.executor": "Run",
     "Gradle.WarehouseTest.executor": "Run",
+    "Gradle.WeatherAlertServiceTest.executor": "Run",
     "Gradle.WeatherAlertServiceTest.shouldSubscribePersonToLocation.executor": "Run",
     "Gradle.kodilla-course [dependencies].executor": "Run",
     "Gradle.kodilla-course [test].executor": "Run",
@@ -171,6 +168,7 @@
       <recent name="com.kodilla.inheritance.homework" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.kodilla.parametrized_tests" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
@@ -181,8 +179,8 @@
       <recent name="parametrized_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.WeatherAlertServiceTest">
-    <configuration name="NotificationServiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.PersonTest">
+    <configuration name="PersonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -195,7 +193,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.PersonTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -206,7 +204,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringManipulatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -219,7 +217,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.StringManipulatorTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,7 +228,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -243,7 +241,7 @@
           <list>
             <option value=":kodilla-advanced-tests:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.mockito.NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification&quot;" />
+            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -278,37 +276,35 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="WeatherAlertServiceTest.shouldSubscribePersonToLocation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="kodilla-course [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.mockito.homework.WeatherAlertServiceTest.shouldSubscribePersonToLocation&quot;" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PersonTest" />
+        <item itemvalue="Gradle.StringManipulatorTestSuite" />
+        <item itemvalue="Gradle.kodilla-course [dependencies]" />
+        <item itemvalue="Gradle.UserValidatorTest" />
         <item itemvalue="Gradle.WeatherAlertServiceTest" />
-        <item itemvalue="Gradle.WeatherAlertServiceTest.shouldSubscribePersonToLocation" />
-        <item itemvalue="Gradle.NotificationServiceTestSuite" />
-        <item itemvalue="Gradle.NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification" />
-        <item itemvalue="Gradle.NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +376,7 @@
       <workItem from="1702901465134" duration="14714000" />
       <workItem from="1702926188065" duration="5872000" />
       <workItem from="1702943930270" duration="1233000" />
-      <workItem from="1702987859240" duration="7346000" />
+      <workItem from="1702987859240" duration="10720000" />
     </task>
     <servers />
   </component>
