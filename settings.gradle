@@ -10,4 +10,5 @@ include 'kodilla-stream2'
 include 'kodilla-advanced-tests'
 include 'kodilla-advanced-tests'
 include 'kodilla-advanced-tests'
+include 'kodilla-spring-basic'
 

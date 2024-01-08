@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/test/java/com/kodilla/parametrized_tests/StringSources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/SpringBasicRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/EmailMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/FacebookMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/SimpleApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/SimpleApplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/SkypeMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/TextMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/homework/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/homework/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/homework/DeliveryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/homework/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/homework/NotificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/dependency_injection/homework/ShippingCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/StringSources.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/provideTestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-advanced-tests/src/main/java/com/kodilla/parametrized_tests/homework/provideTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +130,8 @@
     "Gradle.WeatherAlertServiceTest.shouldSubscribePersonToLocation.executor": "Run",
     "Gradle.kodilla-course [dependencies].executor": "Run",
     "Gradle.kodilla-course [test].executor": "Run",
+    "Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:Application.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:SimpleApplicationRunner.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:Application.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:AverageAge.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:FirstExample.main()].executor": "Run",
@@ -165,6 +178,7 @@
       <recent name="" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.kodilla.spring.basic.dependency_injection" />
       <recent name="com.kodilla.inheritance.homework" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -179,7 +193,33 @@
       <recent name="parametrized_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PersonTest">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.basic.dependency_injection.homework.Application" />
+      <module name="kodilla-course.kodilla-spring-basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.spring.basic.dependency_injection.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleApplicationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.basic.dependency_injection.SimpleApplicationRunner" />
+      <module name="kodilla-course.kodilla-spring-basic.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.spring.basic.dependency_injection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -228,54 +268,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="UserValidatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.UserValidatorTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="WeatherAlertServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-advanced-tests:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.mockito.homework.WeatherAlertServiceTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="kodilla-course [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -300,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.SimpleApplicationRunner" />
         <item itemvalue="Gradle.PersonTest" />
         <item itemvalue="Gradle.StringManipulatorTestSuite" />
         <item itemvalue="Gradle.kodilla-course [dependencies]" />
-        <item itemvalue="Gradle.UserValidatorTest" />
-        <item itemvalue="Gradle.WeatherAlertServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +368,10 @@
       <workItem from="1702901465134" duration="14714000" />
       <workItem from="1702926188065" duration="5872000" />
       <workItem from="1702943930270" duration="1233000" />
-      <workItem from="1702987859240" duration="10720000" />
+      <workItem from="1702987859240" duration="11091000" />
+      <workItem from="1704632931251" duration="785000" />
+      <workItem from="1704634551682" duration="4238000" />
+      <workItem from="1704719058276" duration="2762000" />
     </task>
     <servers />
   </component>
