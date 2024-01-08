@@ -13,31 +13,31 @@ class CalculatorTest {
     @Test
     public void shouldAddTwoNumbers() {
         calculator.add(3.0, 5.0);
-        // Oczekuj na rezultat w konsoli
+
     }
 
     @Test
     public void shouldSubtractTwoNumbers() {
         calculator.subtract(8.0, 3.0);
-        // Oczekuj na rezultat w konsoli
+
     }
 
     @Test
     public void shouldMultiplyTwoNumbers() {
         calculator.multiply(4.0, 6.0);
-        // Oczekuj na rezultat w konsoli
+
     }
 
     @Test
     public void shouldDivideTwoNumbers() {
         calculator.divide(9.0, 3.0);
-        // Oczekuj na rezultat w konsoli
+
     }
 
     @Test
     public void shouldHandleDivisionByZero() {
         calculator.divide(7.0, 0.0);
-        // Oczekuj na rezultat w konsoli
+
     }
 
 }

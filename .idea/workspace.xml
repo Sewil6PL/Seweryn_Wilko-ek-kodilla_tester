@@ -189,7 +189,7 @@
       <recent name="com.kodilla.parametrized_tests.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SimpleApplicationTestSuite.shouldProcessMessage">
+  <component name="RunManager" selected="Gradle.CalculatorTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.basic.dependency_injection.homework.Application" />
       <module name="kodilla-course.kodilla-spring-basic.main" />
@@ -216,7 +216,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -227,9 +227,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-advanced-tests:test" />
+            <option value=":kodilla-spring-basic:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.parametrized_tests.homework.PersonTest&quot;" />
+            <option value="&quot;com.kodilla.spring.basic.spring_dependency_injection.homework.CalculatorTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -297,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CalculatorTest" />
         <item itemvalue="Gradle.SimpleApplicationTestSuite.shouldProcessMessage" />
         <item itemvalue="Gradle.SimpleApplicationTestSuite" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.SimpleApplicationRunner" />
-        <item itemvalue="Gradle.PersonTest" />
       </list>
     </recent_temporary>
   </component>
