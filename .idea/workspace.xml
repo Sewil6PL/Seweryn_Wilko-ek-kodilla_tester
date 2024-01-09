@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SkypeMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/homework/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/homework/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplicationTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_dependency_injection/homework/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/EmailMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/FacebookMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/TextMessageService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/SpringBasicRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/SpringBasicRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SimpleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SkypeMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection/SkypeMessageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +49,9 @@
         <option value="package-info" />
         <option value="Record" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -73,92 +70,93 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.AirportRepositoryTest.executor": "Run",
-    "Gradle.AirportRepositoryTest.testIsAirpirtInuse_withException.executor": "Run",
-    "Gradle.ApplicationTest.executor": "Run",
-    "Gradle.ForumStatsTest.executor": "Run",
-    "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersAbove40.executor": "Run",
-    "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersBelow40.executor": "Run",
-    "Gradle.GamblingMachineTest.executor": "Run",
-    "Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers.executor": "Run",
-    "Gradle.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers.executor": "Run",
-    "Gradle.GamblingMachineTest.shouldThrowInvalidNumbersExceptionForInvalidNumbers.executor": "Run",
-    "Gradle.InvoiceTestSuite.executor": "Run",
-    "Gradle.MobilePhoneTestSuite.executor": "Run",
-    "Gradle.MobilePhoneTestSuite.shouldCallLaunchApplication.executor": "Run",
-    "Gradle.NotificationServiceTestSuite.executor": "Run",
-    "Gradle.NotificationServiceTestSuite.notSubscribedClientShouldNotReceiveNotification.executor": "Run",
-    "Gradle.NotificationServiceTestSuite.notificationShouldBeSentToAllSubscribedClients.executor": "Run",
-    "Gradle.NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber.executor": "Run",
-    "Gradle.NotificationServiceTestSuite.subscribedClientShouldReceiveNotification.executor": "Run",
-    "Gradle.NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification.executor": "Run",
-    "Gradle.NumberCheckerTest.executor": "Run",
-    "Gradle.NumberCheckerTestSuite (1).executor": "Run",
-    "Gradle.NumberCheckerTestSuite.executor": "Run",
-    "Gradle.NumberCheckerTestSuite.shouldReturnFalseForNumberNotDivisibleByThree (1).executor": "Run",
-    "Gradle.NumberCheckerTestSuite.shouldReturnFalseForNumberNotDivisibleByThree.executor": "Run",
-    "Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree (1).executor": "Run",
-    "Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree.executor": "Run",
-    "Gradle.PersonTest.executor": "Run",
-    "Gradle.PersonTest.shouldReturnCorrectBMICategory.executor": "Run",
-    "Gradle.ShopTest.executor": "Run",
-    "Gradle.ShopTest.shouldAddOrder.executor": "Run",
-    "Gradle.ShopTest.shouldGetOrdersInDateRange.executor": "Run",
-    "Gradle.SimpleApplicationTestSuite.executor": "Run",
-    "Gradle.SimpleApplicationTestSuite.shouldProcessMessage.executor": "Run",
-    "Gradle.StringManipulatorTestSuite.executor": "Run",
-    "Gradle.StringManipulatorTestSuite.shouldCalculateStringLengthWithoutSpaces.executor": "Run",
-    "Gradle.StringManipulatorTestSuite.shouldCountNumberOfCommas.executor": "Run",
-    "Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase.executor": "Run",
-    "Gradle.StringSourcesTest.executor": "Run",
-    "Gradle.StringValidatorTestSuite.executor": "Run",
-    "Gradle.UserValidatorTest.executor": "Run",
-    "Gradle.UsersManagerTest.executor": "Run",
-    "Gradle.UsersManagerTest.testFilterChemistGroupUsernames.executor": "Run",
-    "Gradle.UsersManagerTest.testFilterUsersOlderThan.executor": "Run",
-    "Gradle.UsersManagerTest.testFilterUsersOlderThanWithEmptyList.executor": "Run",
-    "Gradle.UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers.executor": "Run",
-    "Gradle.WarehouseTest.executor": "Run",
-    "Gradle.WeatherAlertServiceTest.executor": "Run",
-    "Gradle.WeatherAlertServiceTest.shouldSubscribePersonToLocation.executor": "Run",
-    "Gradle.kodilla-course [dependencies].executor": "Run",
-    "Gradle.kodilla-course [test].executor": "Run",
-    "Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:Application.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:SimpleApplicationRunner.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:Application.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:AverageAge.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:FirstExample.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:ForumStats.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:OptionalExample.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:SecondExample.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:ThirdExample.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:UsersManager.main()].executor": "Run",
-    "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:WarehouseApp.main()].executor": "Run",
-    "Gradle.shouldReverseStringWithLowerCase.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/PC/IdeaProjects/kodilla-course/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/PC/IdeaProjects/kodilla-course/src/main/java/com/kodilla/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.import",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.AirportRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.AirportRepositoryTest.testIsAirpirtInuse_withException.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ApplicationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumStatsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumStatsTest.testCalculateAveragePostsForUsersAbove40.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumStatsTest.testCalculateAveragePostsForUsersBelow40.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GamblingMachineTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GamblingMachineTest.shouldCountCorrectWinsForValidNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GamblingMachineTest.shouldThrowExceptionForInvalidNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.GamblingMachineTest.shouldThrowInvalidNumbersExceptionForInvalidNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InvoiceTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MobilePhoneTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MobilePhoneTestSuite.shouldCallLaunchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationServiceTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationServiceTestSuite.notSubscribedClientShouldNotReceiveNotification.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationServiceTestSuite.notificationShouldBeSentToAllSubscribedClients.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationServiceTestSuite.shouldSendOnlyOneNotificationToMultiTimeSubscriber.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationServiceTestSuite.subscribedClientShouldReceiveNotification.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NotificationServiceTestSuite.unsubscribedClientShouldNotReceiveNotification.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberCheckerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberCheckerTestSuite (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberCheckerTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberCheckerTestSuite.shouldReturnFalseForNumberNotDivisibleByThree (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberCheckerTestSuite.shouldReturnFalseForNumberNotDivisibleByThree.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NumberCheckerTestSuite.shouldReturnTrueForNumberDivisibleByThree.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PersonTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PersonTest.shouldReturnCorrectBMICategory.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShopTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShopTest.shouldAddOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShopTest.shouldGetOrdersInDateRange.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleApplicationTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleApplicationTestSuite.shouldProcessMessage.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringManipulatorTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringManipulatorTestSuite.shouldCalculateStringLengthWithoutSpaces.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringManipulatorTestSuite.shouldCountNumberOfCommas.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringSourcesTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StringValidatorTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserValidatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsersManagerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsersManagerTest.testFilterChemistGroupUsernames.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsersManagerTest.testFilterUsersOlderThan.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsersManagerTest.testFilterUsersOlderThanWithEmptyList.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsersManagerTest.testFilterUsersOlderThanWithNoMatchingUsers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WarehouseTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WeatherAlertServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WeatherAlertServiceTest.shouldSubscribePersonToLocation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:SimpleApplicationRunner.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:Application.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:AverageAge.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:FirstExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:ForumStats.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:OptionalExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:SecondExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:ThirdExample.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:UsersManager.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.kodilla-course:kodilla-stream [:kodilla-stream:WarehouseApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.shouldReverseStringWithLowerCase.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/PC/IdeaProjects/kodilla-course/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_dependency_injection&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/PC/IdeaProjects/kodilla-course/src/main/java/com/kodilla/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.kodilla.collections.adv.maps.complex" />
@@ -189,26 +187,13 @@
       <recent name="com.kodilla.parametrized_tests.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTest">
+  <component name="RunManager" selected="Gradle.ShippingCenterTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.basic.dependency_injection.homework.Application" />
       <module name="kodilla-course.kodilla-spring-basic.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kodilla.spring.basic.dependency_injection.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleApplicationRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.spring.basic.dependency_injection.SimpleApplicationRunner" />
-      <module name="kodilla-course.kodilla-spring-basic.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.basic.dependency_injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,6 +215,30 @@
             <option value=":kodilla-spring-basic:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.spring.basic.spring_dependency_injection.homework.CalculatorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShippingCenterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-spring-basic:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.spring.basic.spring_dependency_injection.homework2.ShippingCenterTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -297,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShippingCenterTest" />
+        <item itemvalue="Gradle.SimpleApplicationTestSuite" />
         <item itemvalue="Gradle.CalculatorTest" />
         <item itemvalue="Gradle.SimpleApplicationTestSuite.shouldProcessMessage" />
-        <item itemvalue="Gradle.SimpleApplicationTestSuite" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.SimpleApplicationRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +385,8 @@
       <workItem from="1702987859240" duration="11091000" />
       <workItem from="1704632931251" duration="785000" />
       <workItem from="1704634551682" duration="4238000" />
-      <workItem from="1704719058276" duration="6698000" />
+      <workItem from="1704719058276" duration="7886000" />
+      <workItem from="1704807221061" duration="2644000" />
     </task>
     <servers />
   </component>
