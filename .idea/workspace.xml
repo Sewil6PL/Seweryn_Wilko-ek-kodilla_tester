@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_configuration/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_configuration/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_configuration/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_configuration/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/main/java/com/kodilla/spring/basic/spring_configuration/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-spring-basic/src/test/java/com/kodilla/spring/basic/spring_configuration/AnimalFactoryTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +71,7 @@
     "Gradle.AnimalFactoryTestSuite.executor": "Run",
     "Gradle.ApplicationTest.executor": "Run",
     "Gradle.CalculatorTest.executor": "Run",
+    "Gradle.CarFactoryTest.executor": "Run",
     "Gradle.ForumStatsTest.executor": "Run",
     "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersAbove40.executor": "Run",
     "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersBelow40.executor": "Run",
@@ -182,14 +177,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.spring.basic.spring_configuration.homework" />
       <recent name="com.kodilla.spring.basic.spring_configuration" />
       <recent name="com.kodilla.spring.basic.spring_dependency_injection.homework2" />
       <recent name="com.kodilla.spring.basic.spring_dependency_injection.homework" />
       <recent name="com.kodilla.spring.basic.spring_dependency_injection" />
-      <recent name="com.kodilla.execution_model.homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AnimalFactoryTestSuite">
+  <component name="RunManager" selected="Gradle.CarFactoryTest">
     <configuration name="AnimalFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -228,6 +223,30 @@
             <option value=":kodilla-spring-basic:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.spring.basic.spring_dependency_injection.homework.CalculatorTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CarFactoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-spring-basic:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.spring.basic.spring_configuration.homework.CarFactoryTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -286,30 +305,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleApplicationTestSuite.shouldProcessMessage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-spring-basic:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.spring.basic.spring_dependency_injection.SimpleApplicationTestSuite.shouldProcessMessage&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="SpringBasicRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="kodilla-course.kodilla-spring-basic.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.basic.SpringBasicRunner" />
@@ -319,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CarFactoryTest" />
         <item itemvalue="Gradle.AnimalFactoryTestSuite" />
         <item itemvalue="Gradle.ShippingCenterTest" />
         <item itemvalue="Gradle.SimpleApplicationTestSuite" />
         <item itemvalue="Gradle.CalculatorTest" />
-        <item itemvalue="Gradle.SimpleApplicationTestSuite.shouldProcessMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +394,7 @@
       <workItem from="1704632931251" duration="785000" />
       <workItem from="1704634551682" duration="4238000" />
       <workItem from="1704719058276" duration="7886000" />
-      <workItem from="1704807221061" duration="5098000" />
+      <workItem from="1704807221061" duration="6515000" />
     </task>
     <servers />
   </component>
