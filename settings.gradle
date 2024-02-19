@@ -8,4 +8,7 @@ include 'kodilla-stream2'
 include 'kodilla-advanced-tests'
 include 'kodilla-spring-basic'
 include 'kodilla-rest-api'
+include 'Kodilla-selenium'
+include 'Kodilla-selenium'
+findProject(':Kodilla-selenium')?.name = 'kodilla-selenium'
 
