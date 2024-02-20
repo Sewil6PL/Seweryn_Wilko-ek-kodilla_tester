@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/allegro/AllegroTestingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/form/FormTestApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/login/LoginTestingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/allegro/AllegroTestingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/allegro/AllegroTestingApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -379,7 +377,7 @@
       <workItem from="1708019475870" duration="7000" />
       <workItem from="1708332255964" duration="1984000" />
       <workItem from="1708336689241" duration="2439000" />
-      <workItem from="1708417689958" duration="1916000" />
+      <workItem from="1708417689958" duration="3712000" />
     </task>
     <servers />
   </component>
