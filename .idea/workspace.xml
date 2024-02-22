@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaLoginPom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaPomApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaStoreSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/allegro/AllegroTestingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/allegro/AllegroTestingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
     "Gradle.AirportRepositoryTest.executor": "Run",
     "Gradle.AirportRepositoryTest.testIsAirpirtInuse_withException.executor": "Run",
     "Gradle.AnimalFactoryTestSuite.executor": "Run",
@@ -137,6 +142,9 @@
     "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:FormTestApp.main()].executor": "Run",
     "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:LoginTestingApp.main()].executor": "Run",
     "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:StoreSearchExample.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-login-selenium [:kodilla-login-selenium:KodillaLoginPom.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-login-selenium [:kodilla-login-selenium:KodillaPomApplication.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-login-selenium [:kodilla-login-selenium:KodillaStoreSearchTest.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:Application.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-spring-basic [:kodilla-spring-basic:SimpleApplicationRunner.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:Application.main()].executor": "Run",
@@ -149,6 +157,10 @@
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:UsersManager.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-stream [:kodilla-stream:WarehouseApp.main()].executor": "Run",
     "Gradle.shouldReverseStringWithLowerCase.executor": "Run",
+    "JUnit.KodillaStoreSearchTest.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -207,7 +219,7 @@
       <recent name="com.kodilla.spring.basic.spring_configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AllegroTestingApp">
+  <component name="RunManager" selected="Application.KodillaStoreSearchTest">
     <configuration name="AllegroTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.allegro.AllegroTestingApp" />
       <module name="kodilla-course.kodilla-selenium.main" />
@@ -221,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EBayTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.ebay.EBayTestingApp" />
-      <module name="kodilla-course.kodilla-selenium.main" />
+    <configuration name="KodillaLoginPom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.pom.KodillaLoginPom" />
+      <module name="kodilla-course.kodilla-login-selenium.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.ebay.*" />
+          <option name="PATTERN" value="com.kodilla.selenium.pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormTestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.form.FormTestApp" />
-      <module name="kodilla-course.kodilla-selenium.main" />
+    <configuration name="KodillaPomApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.pom.KodillaPomApplication" />
+      <module name="kodilla-course.kodilla-login-selenium.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.form.*" />
+          <option name="PATTERN" value="com.kodilla.selenium.pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.login.LoginTestingApp" />
-      <module name="kodilla-course.kodilla-selenium.main" />
+    <configuration name="KodillaStoreSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.pom.KodillaStoreSearchTest" />
+      <module name="kodilla-course.kodilla-login-selenium.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.login.*" />
+          <option name="PATTERN" value="com.kodilla.selenium.pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,15 +272,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoreSearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.search.StoreSearchExample" />
-      <module name="kodilla-course.kodilla-selenium.main" />
+    <configuration name="KodillaStoreSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodilla-course.kodilla-login-selenium.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.search.*" />
+          <option name="PATTERN" value="com.kodilla.selenium.pom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.selenium.pom" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.pom.KodillaStoreSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KodillaRestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kodilla-course.kodilla-rest-api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.rest.KodillaRestApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,11 +303,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.KodillaStoreSearchTest" />
+        <item itemvalue="Application.KodillaStoreSearchTest" />
+        <item itemvalue="Application.KodillaPomApplication" />
+        <item itemvalue="Application.KodillaLoginPom" />
         <item itemvalue="Application.AllegroTestingApp" />
-        <item itemvalue="Application.FormTestApp" />
-        <item itemvalue="Application.LoginTestingApp" />
-        <item itemvalue="Application.EBayTestingApp" />
-        <item itemvalue="Application.StoreSearchExample" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +398,9 @@
       <workItem from="1708019475870" duration="7000" />
       <workItem from="1708332255964" duration="1984000" />
       <workItem from="1708336689241" duration="2439000" />
-      <workItem from="1708417689958" duration="3712000" />
+      <workItem from="1708417689958" duration="4461000" />
+      <workItem from="1708510390277" duration="1362000" />
+      <workItem from="1708605456603" duration="3626000" />
     </task>
     <servers />
   </component>
