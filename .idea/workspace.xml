@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaLoginPom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaPomApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaStoreSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/visual/OcularExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kodilla-selenium/src/main/java/com/kodilla/selenium/visual/WorldTimePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/seasonchecker/IsItSummerSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/seasonchecker/SeasonChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/resources/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/resources/seasonchecker/is_it_summer/is_it_summer.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kodilla-selenium/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Kodilla-selenium/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-login-selenium/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-login-selenium/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaStoreSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-login-selenium/src/main/java/com/kodilla/selenium/pom/KodillaStoreSearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +43,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="kodilla-course" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kodilla-course" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -50,7 +63,9 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -71,6 +86,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FizzBuzzGame.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.AirportRepositoryTest.executor": "Run",
     "Gradle.AirportRepositoryTest.testIsAirpirtInuse_withException.executor": "Run",
@@ -88,6 +104,7 @@
     "Gradle.ClockTest.executor": "Run",
     "Gradle.ExternalApiRestAssuredTest.executor": "Run",
     "Gradle.ExternalServicePostUpdateTest.executor": "Run",
+    "Gradle.FizzBuzzTest.executor": "Run",
     "Gradle.ForumStatsTest.executor": "Run",
     "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersAbove40.executor": "Run",
     "Gradle.ForumStatsTest.testCalculateAveragePostsForUsersBelow40.executor": "Run",
@@ -126,6 +143,7 @@
     "Gradle.StringSourcesTest.executor": "Run",
     "Gradle.StringValidatorTestSuite.executor": "Run",
     "Gradle.TaskTestSuite.executor": "Run",
+    "Gradle.TestRunner.executor": "Run",
     "Gradle.UserValidatorTest.executor": "Run",
     "Gradle.UsersManagerTest.executor": "Run",
     "Gradle.UsersManagerTest.testFilterChemistGroupUsernames.executor": "Run",
@@ -141,7 +159,9 @@
     "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:EBayTestingApp.main()].executor": "Run",
     "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:FormTestApp.main()].executor": "Run",
     "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:LoginTestingApp.main()].executor": "Run",
+    "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:OcularExample.main()].executor": "Run",
     "Gradle.kodilla-course:Kodilla-selenium [:kodilla-selenium:StoreSearchExample.main()].executor": "Run",
+    "Gradle.kodilla-course:kodilla-cucumber [:kodilla-cucumber:FizzBuzzGame.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-login-selenium [:kodilla-login-selenium:KodillaLoginPom.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-login-selenium [:kodilla-login-selenium:KodillaPomApplication.main()].executor": "Run",
     "Gradle.kodilla-course:kodilla-login-selenium [:kodilla-login-selenium:KodillaStoreSearchTest.main()].executor": "Run",
@@ -184,12 +204,13 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="FizzBuzzGameTest" />
       <recent name="com.kodilla.rest.controller" />
       <recent name="com.kodilla.collections.adv.maps.complex" />
       <recent name="com.kodilla.inheritance.homework" />
@@ -219,39 +240,13 @@
       <recent name="com.kodilla.spring.basic.spring_configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KodillaStoreSearchTest">
-    <configuration name="AllegroTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.allegro.AllegroTestingApp" />
-      <module name="kodilla-course.kodilla-selenium.main" />
+  <component name="RunManager" selected="Gradle.TestRunner">
+    <configuration name="FizzBuzzGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzGameTest.FizzBuzzGame" />
+      <module name="kodilla-course.kodilla-cucumber.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.allegro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KodillaLoginPom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.pom.KodillaLoginPom" />
-      <module name="kodilla-course.kodilla-login-selenium.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.pom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KodillaPomApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.pom.KodillaPomApplication" />
-      <module name="kodilla-course.kodilla-login-selenium.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.pom.*" />
+          <option name="PATTERN" value="FizzBuzzGameTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,20 +267,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KodillaStoreSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kodilla-course.kodilla-login-selenium.main" />
+    <configuration name="StoreSearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.search.StoreSearchExample" />
+      <module name="kodilla-course.kodilla-selenium.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.selenium.pom.*" />
+          <option name="PATTERN" value="com.kodilla.selenium.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.selenium.pom" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.selenium.pom.KodillaStoreSearchTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="FizzBuzzTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-cucumber:cucumber" />
+            <option value="--tests" />
+            <option value="&quot;FizzBuzzGameTest.FizzBuzzTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-cucumber:test" />
+            <option value="--tests" />
+            <option value="&quot;TestRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="KodillaRestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="kodilla-course.kodilla-rest-api.main" />
@@ -303,11 +344,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KodillaStoreSearchTest" />
+        <item itemvalue="Gradle.TestRunner" />
+        <item itemvalue="Gradle.FizzBuzzTest" />
+        <item itemvalue="Application.FizzBuzzGame" />
         <item itemvalue="Application.KodillaStoreSearchTest" />
-        <item itemvalue="Application.KodillaPomApplication" />
-        <item itemvalue="Application.KodillaLoginPom" />
-        <item itemvalue="Application.AllegroTestingApp" />
+        <item itemvalue="Application.StoreSearchExample" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +360,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\PC\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="" />
@@ -400,7 +444,11 @@
       <workItem from="1708336689241" duration="2439000" />
       <workItem from="1708417689958" duration="4461000" />
       <workItem from="1708510390277" duration="1362000" />
-      <workItem from="1708605456603" duration="3626000" />
+      <workItem from="1708605456603" duration="6794000" />
+      <workItem from="1708670925791" duration="1507000" />
+      <workItem from="1708673012067" duration="508000" />
+      <workItem from="1708872379743" duration="4419000" />
+      <workItem from="1708886792691" duration="1173000" />
     </task>
     <servers />
   </component>
@@ -417,6 +465,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kodilla_course$FirstClass__1_.ic" NAME="FirstClass (1) Coverage Results" MODIFIED="1697888515668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

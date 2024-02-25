@@ -6,15 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class KodillaStoreSearchTest {public static void main(String[] args) {
-    // Ścieżka do chromedriver.exe - należy dostosować do własnej konfiguracji
-    System.setProperty("webdriver.chrome.driver", "c:\\selenium-drivers\\Chrom\\chromedriver.exe");
-
-    // Inicjalizacja WebDrivera
-    WebDriver driver = new ChromeDriver();
-
-    // Przejście do strony Kodilla Store
-    driver.get("https://kodilla.com/pl/test/store");
+public class KodillaStoreSearchTest {
+    public static void main(String[] args) throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "c:\\selenium-drivers\\Chrom\\chromedriver.exe");            // [1]
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://kodilla.com/pl/test/store");
 
     // Lista fraz do wyszukania
     String[] searchPhrases = {"NoteBook", "School", "Brand", "Business", "Gaming", "Powerful"};
@@ -42,5 +38,5 @@ public class KodillaStoreSearchTest {public static void main(String[] args) {
 
     // Zamknięcie przeglądarki
     driver.quit();
-}
+    }
 }
