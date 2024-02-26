@@ -28,4 +28,3 @@ Feature: Cash Withdrawal
     Given I have deposited $200 in my wallet
     When I request $0
     Then the withdrawal should fail with a message indicating insufficient funds
-

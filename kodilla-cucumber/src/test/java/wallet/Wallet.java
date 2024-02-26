@@ -4,16 +4,18 @@ public class Wallet {
     private int balance = 0;
 
     public Wallet() {
+        this.balance = 0;
     }
 
-    public void deposit(int money) {
-        this.balance += money;
+    public void deposit(int amount) {
+        this.balance += amount;
+    }
+
+    public void debit(int amount) {
+        this.balance -= amount;
     }
 
     public int getBalance() {
-        return balance;
-    }
-    public void debit(int money) {
-        this.balance -= money;
+        return this.balance;
     }
 }
