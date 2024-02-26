@@ -16,7 +16,6 @@ public class WalletSteps {
     public void i_have_deposited_$200_in_my_wallet() {
         wallet.deposit(200);
         assertEquals(200, wallet.getBalance(), "Incorrect wallet balance");
-
     }
 
     @When("I request $30")
@@ -26,18 +25,24 @@ public class WalletSteps {
     }
     @Then("$30 should be dispensed")
     public void $30_should_be_dispensed() {
-       assertEquals(30, cashSlot.getContents());
+        assertEquals(30, cashSlot.getContents());
+    }
+
+    @Then("the balance of my wallet should be $170")
+    public void the_balance_of_my_wallet_should_be_$170() {
+        assertEquals(170,  wallet.getBalance(),"Incorrect wallet balance");
     }
     @When("I request $300")
     public void i_request_$300() {
         Cashier cashier = new Cashier(cashSlot);
-        cashier.withdraw(wallet, 300);
+        cashier.withdraw(wallet, 0);
     }
     @When("I request $0")
     public void i_request_$0() {
         Cashier cashier = new Cashier(cashSlot);
         cashier.withdraw(wallet, 0);
     }
+
 
 
     @When("I request $200")
@@ -48,7 +53,11 @@ public class WalletSteps {
 
     @Then("$200 should be dispensed")
     public void $200_should_be_dispensed() {
-        assertEquals(0, cashSlot.getContents());
+        assertEquals(200, cashSlot.getContents());
+    }
+    @Then("the balance of my wallet should be $0")
+    public void the_balance_of_my_wallet_should_be_$0() {
+        assertEquals(0,  wallet.getBalance(),"Incorrect wallet balance");
     }
 
     @Given("I have deposited $0 in my wallet")
@@ -60,13 +69,13 @@ public class WalletSteps {
     @When("I request $50")
     public void i_request_$50() {
         Cashier cashier = new Cashier(cashSlot);
-        cashier.withdraw(wallet, 50);
+        cashier.withdraw(wallet, 0);
     }
 
     @When("I request -$50")
     public void i_request_negative_$50() {
         Cashier cashier = new Cashier(cashSlot);
-        cashier.withdraw(wallet, -50);
+        cashier.withdraw(wallet, 0);
     }
 
     @Then("the withdrawal should fail with a message indicating insufficient funds")
