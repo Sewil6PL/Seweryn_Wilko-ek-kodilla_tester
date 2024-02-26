@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/resources/wallet/display_balance.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/resources/wallet/prevent_users_from_taking_out_more_money_than_their_wallet_contains.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/wallet/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/wallet/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/wallet/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/wallet/Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/wallet/WalletSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/java/wallet/WalletSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-cucumber/src/test/resources/wallet/cash_withdrawal.feature" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-cucumber/src/test/resources/wallet/cash_withdrawal.feature" afterDir="false" />
-    </list>
+    <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -466,7 +458,7 @@
       <workItem from="1708872379743" duration="4419000" />
       <workItem from="1708886792691" duration="5598000" />
       <workItem from="1708893478092" duration="779000" />
-      <workItem from="1708948837879" duration="12609000" />
+      <workItem from="1708948837879" duration="13101000" />
     </task>
     <servers />
   </component>

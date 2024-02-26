@@ -111,8 +111,8 @@ public class WalletSteps {
     public void i_check_the_balance_of_my_wallet(){
     }
     @Then("I should see that the balance is $100")
-    public void i_should_see_that_the_balance_is_$100(int expectedBalance) {
-        assertEquals(expectedBalance, wallet.getBalance());
+    public void i_should_see_that_the_balance_is_$100() {
+        assertEquals(100, wallet.getBalance());
     }
 }
 
