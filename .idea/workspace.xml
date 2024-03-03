@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/jdbc/DbManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/jdbc/DbManagerTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/CodeCoverageApplication/CodeCoverageApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/repository/TaskListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/CodeCoverageApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/hibernate/tasklist/repository/TaskListRepositoryTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-code-coverage/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-code-coverage/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/jacoco/YearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/jacoco/YearTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +91,7 @@
     "Gradle.CalculatorTest.executor": "Run",
     "Gradle.CarFactoryTest.executor": "Run",
     "Gradle.ClockTest.executor": "Run",
+    "Gradle.CodeCoverageApplicationTest.executor": "Run",
     "Gradle.DbManagerTestSuite.executor": "Run",
     "Gradle.DbManagerTestSuite.testConnect.executor": "Run",
     "Gradle.DbManagerTestSuite.testSelectUsers.executor": "Run",
@@ -134,6 +138,8 @@
     "Gradle.StringManipulatorTestSuite.shouldReverseStringWithLowerCase.executor": "Run",
     "Gradle.StringSourcesTest.executor": "Run",
     "Gradle.StringValidatorTestSuite.executor": "Run",
+    "Gradle.TaskListRepositoryTestSuite.executor": "Run",
+    "Gradle.TaskListRepositoryTestSuite.testFindByListName.executor": "Run",
     "Gradle.TaskTestSuite.executor": "Run",
     "Gradle.TestRunner.executor": "Run",
     "Gradle.UserValidatorTest.executor": "Run",
@@ -199,8 +205,8 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/PC/IdeaProjects/kodilla-course/src/main/java/com/kodilla/Main.java",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
@@ -242,7 +248,31 @@
       <recent name="com.kodilla.spring.basic.spring_configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DbManagerTestSuite.testSelectUsersAndPosts">
+  <component name="RunManager" selected="Gradle.TaskListRepositoryTestSuite">
+    <configuration name="CodeCoverageApplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-code-coverage:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.CodeCoverageApplicationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="DbManagerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -257,54 +287,6 @@
             <option value=":kodilla-code-coverage:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.jdbc.DbManagerTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DbManagerTestSuite.testConnect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-code-coverage:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.jdbc.DbManagerTestSuite.testConnect&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DbManagerTestSuite.testSelectUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-code-coverage:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.jdbc.DbManagerTestSuite.testSelectUsers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -339,7 +321,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="YearTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaskListRepositoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -352,7 +334,31 @@
           <list>
             <option value=":kodilla-code-coverage:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.jacoco.YearTest&quot;" />
+            <option value="&quot;com.kodilla.hibernate.tasklist.repository.TaskListRepositoryTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskListRepositoryTestSuite.testFindByListName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-code-coverage:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.hibernate.tasklist.repository.TaskListRepositoryTestSuite.testFindByListName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -379,11 +385,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaskListRepositoryTestSuite" />
+        <item itemvalue="Gradle.TaskListRepositoryTestSuite.testFindByListName" />
+        <item itemvalue="Gradle.CodeCoverageApplicationTest" />
         <item itemvalue="Gradle.DbManagerTestSuite.testSelectUsersAndPosts" />
         <item itemvalue="Gradle.DbManagerTestSuite" />
-        <item itemvalue="Gradle.DbManagerTestSuite.testSelectUsers" />
-        <item itemvalue="Gradle.DbManagerTestSuite.testConnect" />
-        <item itemvalue="Gradle.YearTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +496,7 @@
       <workItem from="1709398688120" duration="1824000" />
       <workItem from="1709478369409" duration="3484000" />
       <workItem from="1709492839500" duration="806000" />
-      <workItem from="1709493655638" duration="1731000" />
+      <workItem from="1709493655638" duration="4117000" />
     </task>
     <servers />
   </component>
