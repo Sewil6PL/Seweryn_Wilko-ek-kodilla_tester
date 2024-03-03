@@ -11,7 +11,7 @@ Feature: FizzBuzz Game
 
     Examples:
       | number | expectedOutput |
-      | 3      | "Fizz"         |
-      | 5      | "Buzz"         |
-      | 15     | "FizzBuzz"     |
-      | 7      | "None"         |
+      | 3      | Fizz           |
+      | 5      | Buzz           |
+      | 15     | FizzBuzz       |
+      | 7      | None           |

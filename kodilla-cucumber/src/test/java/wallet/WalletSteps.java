@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public class WalletSteps {
-    private Wallet wallet = new Wallet();
+    private final Wallet wallet = new Wallet();
     private final CashSlot cashSlot = new CashSlot();
     private Cashier cashier;
 
@@ -103,6 +103,7 @@ public class WalletSteps {
     public void nothing_should_be_dispensed() {
         assertEquals(0, cashSlot.getContents());
     }
+
     @Then("I should be told that I don't have enough money in my wallet")
     public void i_should_be_told_that_I_don_t_have_enough_money_in_my_wallet() {
         assertEquals(0, cashSlot.getContents());
