@@ -1,8 +1,9 @@
 package com.kodilla.jacoco;
 
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 public class YearTest {
     @Test
@@ -14,6 +15,6 @@ public class YearTest {
         boolean isLeapYear = year.isLeap();
 
         // then
-        assertTrue(isLeapYear);
+        Assertions.assertTrue(isLeapYear);
     }
 }
