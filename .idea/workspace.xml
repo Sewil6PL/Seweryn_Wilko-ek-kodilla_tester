@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/CodeCoverageApplication/CodeCoverageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/repository/TaskListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/CodeCoverageApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/hibernate/tasklist/repository/TaskListRepositoryTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/manytomany/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/TaskFinancialDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/repository/TaskFinancialDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/TaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/test/java/com/kodilla/hibernate/manytomany/CompanyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-code-coverage/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-code-coverage/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,11 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="kodilla-course" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kodilla-course" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -51,10 +56,10 @@
         <option value="Record" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -140,8 +145,12 @@
     "Gradle.StringValidatorTestSuite.executor": "Run",
     "Gradle.TaskListRepositoryTestSuite.executor": "Run",
     "Gradle.TaskListRepositoryTestSuite.testFindByListName.executor": "Run",
+    "Gradle.TaskTest.executor": "Run",
     "Gradle.TaskTestSuite.executor": "Run",
     "Gradle.TestRunner.executor": "Run",
+    "Gradle.Tests in 'kodilla-course.kodilla-advanced-tests.test'.executor": "Coverage",
+    "Gradle.Tests in 'kodilla-course.kodilla-basic-tests.test'.executor": "Run",
+    "Gradle.Tests in 'kodilla-course.kodilla-code-coverage.test'.executor": "Coverage",
     "Gradle.UserValidatorTest.executor": "Run",
     "Gradle.UsersManagerTest.executor": "Run",
     "Gradle.UsersManagerTest.testFilterChemistGroupUsernames.executor": "Run",
@@ -204,10 +213,10 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/PC/IdeaProjects/kodilla-course/src/main/java/com/kodilla/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "coverage",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -241,15 +250,15 @@
       <recent name="com.kodilla.parametrized_tests" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.hibernate.manytomany" />
       <recent name="com.kodilla.rest.controller" />
       <recent name="com.kodilla.spring.basic.spring_scopes.homework" />
       <recent name="com.kodilla.spring.basic.spring_scopes" />
       <recent name="com.kodilla.spring.basic.spring_configuration.homework" />
-      <recent name="com.kodilla.spring.basic.spring_configuration" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TaskListRepositoryTestSuite">
-    <configuration name="CodeCoverageApplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'kodilla-course.kodilla-code-coverage.test'">
+    <configuration name="CompanyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -262,7 +271,7 @@
           <list>
             <option value=":kodilla-code-coverage:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.CodeCoverageApplicationTest&quot;" />
+            <option value="&quot;com.kodilla.hibernate.manytomany.CompanyTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -273,7 +282,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DbManagerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EmployeeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -286,7 +295,7 @@
           <list>
             <option value=":kodilla-code-coverage:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.jdbc.DbManagerTestSuite&quot;" />
+            <option value="&quot;com.kodilla.hibernate.manytomany.EmployeeTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -297,7 +306,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DbManagerTestSuite.testSelectUsersAndPosts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaskTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -310,7 +319,7 @@
           <list>
             <option value=":kodilla-code-coverage:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.jdbc.DbManagerTestSuite.testSelectUsersAndPosts&quot;" />
+            <option value="&quot;com.kodilla.TaskTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -321,7 +330,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TaskListRepositoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'kodilla-course.kodilla-basic-tests.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -332,9 +341,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-code-coverage:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.hibernate.tasklist.repository.TaskListRepositoryTestSuite&quot;" />
+            <option value=":kodilla-basic-tests:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -345,7 +352,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TaskListRepositoryTestSuite.testFindByListName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'kodilla-course.kodilla-code-coverage.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -357,8 +364,6 @@
         <option name="taskNames">
           <list>
             <option value=":kodilla-code-coverage:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.hibernate.tasklist.repository.TaskListRepositoryTestSuite.testFindByListName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -385,11 +390,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TaskListRepositoryTestSuite" />
-        <item itemvalue="Gradle.TaskListRepositoryTestSuite.testFindByListName" />
-        <item itemvalue="Gradle.CodeCoverageApplicationTest" />
-        <item itemvalue="Gradle.DbManagerTestSuite.testSelectUsersAndPosts" />
-        <item itemvalue="Gradle.DbManagerTestSuite" />
+        <item itemvalue="Gradle.Tests in 'kodilla-course.kodilla-code-coverage.test'" />
+        <item itemvalue="Gradle.EmployeeTest" />
+        <item itemvalue="Gradle.CompanyTest" />
+        <item itemvalue="Gradle.TaskTest" />
+        <item itemvalue="Gradle.Tests in 'kodilla-course.kodilla-basic-tests.test'" />
       </list>
     </recent_temporary>
   </component>
@@ -496,7 +501,8 @@
       <workItem from="1709398688120" duration="1824000" />
       <workItem from="1709478369409" duration="3484000" />
       <workItem from="1709492839500" duration="806000" />
-      <workItem from="1709493655638" duration="4117000" />
+      <workItem from="1709493655638" duration="4836000" />
+      <workItem from="1709564777661" duration="4786000" />
     </task>
     <servers />
   </component>
@@ -519,6 +525,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kodilla_course$Tests_in__kodilla_course_kodilla_basic_tests_test_.ic" NAME="Tests in 'kodilla-course.kodilla-basic-tests.test' Coverage Results" MODIFIED="1709569275423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kodilla_course$Tests_in__kodilla_course_kodilla_code_coverage_test_.ic" NAME="Tests in 'kodilla-course.kodilla-code-coverage.test' Coverage Results" MODIFIED="1709569935740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/kodilla_course$FirstClass__1_.ic" NAME="FirstClass (1) Coverage Results" MODIFIED="1697888515668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kodilla_course$Tests_in__kodilla_course_kodilla_advanced_tests_test_.ic" NAME="Tests in 'kodilla-course.kodilla-advanced-tests.test' Coverage Results" MODIFIED="1709569207901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
