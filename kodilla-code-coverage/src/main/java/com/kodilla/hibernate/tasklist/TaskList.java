@@ -1,12 +1,11 @@
 package com.kodilla.hibernate.tasklist;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
-@SpringBootApplication
 @Table(name = "TASKLISTS")
 public class TaskList {
     private int id;

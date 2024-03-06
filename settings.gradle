@@ -17,4 +17,6 @@ include 'kodilla-cucumber-zadanie'
 include 'kodilla-code-coverage'
 include 'com.kodilla.jacoco'
 include 'kodilla-code-coverage'
+include 'kodilla-bash'
+include 'kodilla-bash'
 
