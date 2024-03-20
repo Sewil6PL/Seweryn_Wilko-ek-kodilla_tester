@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-testcontainers/src/test/java/com/kodilla/testcontainers/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testcontainers/src/test/java/com/kodilla/testcontainers/BrowserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-code-coverage/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-code-coverage/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/CodeCoverageApplication/CodeCoverageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/CodeCoverageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-code-coverage/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-bash/deploy.bat" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-collections/deploy.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +106,8 @@
     &quot;Gradle.BookControllerRestAssuredTest.shouldFetchBooks.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.BookControllerTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.BookControllerTest.shouldAddBook.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BrowserTest.chromeTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.BrowserTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Build kodilla-course.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CalculatorTest.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.CarFactoryTest.executor&quot;: &quot;Run&quot;,
@@ -237,7 +238,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -252,11 +253,11 @@
       <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-cucumber-zadanie\src\test\resources\FizzBuzz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-collections" />
+      <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-bash" />
       <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-cucumber-zadanie\src\test\resources" />
       <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-stream\src\main" />
       <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-stream2" />
-      <recent name="C:\Users\PC\IdeaProjects\kodilla-course" />
-      <recent name="C:\Users\PC\IdeaProjects\kodilla-course\kodilla-intro" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -287,7 +288,79 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.kodilla-course:kodilla-code-coverage [jacocoTestCoverageVerification]">
+  <component name="RunManager" selected="Gradle.BrowserTest">
+    <configuration name="ApplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-testcontainers:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.testcontainers.ApplicationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BrowserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-testcontainers:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.testcontainers.BrowserTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BrowserTest.chromeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--scan --info" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-testcontainers:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.testcontainers.BrowserTest.chromeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="CodeCoverageApplicationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -302,30 +375,6 @@
             <option value=":kodilla-code-coverage:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.CodeCoverageApplicationTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="YearTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-code-coverage:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.jacoco.YearTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -358,37 +407,9 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="kodilla-course:kodilla-code-coverage [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-code-coverage" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="jacocoTestReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="CodeCoverageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CodeCoverageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="kodilla-course.kodilla-code-coverage.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.CodeCoverageApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -409,11 +430,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BrowserTest" />
+        <item itemvalue="Gradle.BrowserTest.chromeTest" />
+        <item itemvalue="Gradle.ApplicationTest" />
         <item itemvalue="Gradle.kodilla-course:kodilla-code-coverage [jacocoTestCoverageVerification]" />
         <item itemvalue="Gradle.CodeCoverageApplicationTest" />
-        <item itemvalue="Spring Boot.CodeCoverageApplication" />
-        <item itemvalue="Gradle.kodilla-course:kodilla-code-coverage [jacocoTestReport]" />
-        <item itemvalue="Gradle.YearTest" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +547,15 @@
       <workItem from="1709572612077" duration="1224000" />
       <workItem from="1709650635524" duration="1440000" />
       <workItem from="1709656966677" duration="1748000" />
-      <workItem from="1709758484839" duration="1930000" />
+      <workItem from="1709758484839" duration="3422000" />
+      <workItem from="1710346638878" duration="117000" />
+      <workItem from="1710346798094" duration="7164000" />
+      <workItem from="1710357666374" duration="663000" />
+      <workItem from="1710704292943" duration="966000" />
+      <workItem from="1710714610741" duration="439000" />
+      <workItem from="1710715060832" duration="1353000" />
+      <workItem from="1710754496243" duration="805000" />
+      <workItem from="1710840402304" duration="103000" />
     </task>
     <servers />
   </component>
