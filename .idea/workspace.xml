@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff47c46-dc99-4fda-9905-0d6b04852b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-testcontainers/src/test/java/com/kodilla/testcontainers/ApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testcontainers/src/test/java/com/kodilla/testcontainers/BrowserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-bash/deploy.bat" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-collections/deploy.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,8 +426,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.BrowserTest" />
-        <item itemvalue="Gradle.BrowserTest.chromeTest" />
         <item itemvalue="Gradle.ApplicationTest" />
+        <item itemvalue="Gradle.BrowserTest.chromeTest" />
         <item itemvalue="Gradle.kodilla-course:kodilla-code-coverage [jacocoTestCoverageVerification]" />
         <item itemvalue="Gradle.CodeCoverageApplicationTest" />
       </list>
@@ -556,6 +551,11 @@
       <workItem from="1710715060832" duration="1353000" />
       <workItem from="1710754496243" duration="805000" />
       <workItem from="1710840402304" duration="103000" />
+      <workItem from="1710933442763" duration="89000" />
+      <workItem from="1711113134435" duration="45000" />
+      <workItem from="1711113214350" duration="585000" />
+      <workItem from="1711119301820" duration="1212000" />
+      <workItem from="1711201000847" duration="906000" />
     </task>
     <servers />
   </component>
